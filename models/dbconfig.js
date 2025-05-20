@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/Backend', {
+    await mongoose.connect('mongodb+srv://trivediharshit015:jdFNHYPdfFrXssV5@cluster0.v4ln6f7.mongodb.net/booking', {
     //   useNewUrlParser: true,
     //   useUnifiedTopology: true,
     });
